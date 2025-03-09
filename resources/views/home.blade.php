@@ -46,7 +46,8 @@
 
         </div>
     </div>
-
+    <br>
+    <br>
     <!-- ✅ Footer -->
     <footer class="text-center p-4 bg-white shadow-inner">
         © 2025 What's Cooking? All Rights Reserved.
