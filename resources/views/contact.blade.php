@@ -19,8 +19,8 @@
         <nav class="flex space-x-4">
     <a href="/" class="px-4 py-2 border rounded hover:bg-gray-200">Home</a>
     <a href="/meal" class="px-4 py-2 border rounded hover:bg-gray-200">Meal</a>
-    <a href="/contact" class="px-4 py-2 border rounded hover:bg-gray-200">Contact</a>
-    <a href="/about" class="px-4 py-2 border rounded bg-gray-300">About</a>
+    <a href="/contact" class="px-4 py-2 border rounded bg-gray-300">Contact</a>
+    <a href="/about" class="px-4 py-2 border rounded hover:bg-gray-200">About</a>
 
     @auth
         <form action="{{ route('logout') }}" method="POST" class="inline">

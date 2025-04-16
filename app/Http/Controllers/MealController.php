@@ -102,7 +102,7 @@ class MealController extends Controller
         ]);
     }
 
-    // ✅ Gemini AI Cooking Assistant (Fix: Removed extra `]`)
+    // ✅ Gemini AI Cooking Assistant 
     public function aiCookingAssistant(Request $request)
     {
         $meal = $request->input('meal');
